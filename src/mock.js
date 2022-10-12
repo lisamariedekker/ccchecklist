@@ -17,7 +17,7 @@ const itemTypes = [
   { FORAGE: 'Forage' }
 ]
 
-const items = [
+export const items = [
   {
     id: 1,
     name: 'Wild Horseradish',
