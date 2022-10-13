@@ -1,15 +1,22 @@
 import React from 'react'
 import { Card, Col, Image, Row } from 'react-bootstrap'
+import Requirement from './Requirement'
 
 class Bundle extends React.Component {
   constructor(props) {
     super(props)
-    this.state = props.bundles
+    this.state = {bundles: []}
+  }
+
+  componentDidMount() {
+    this.setState({
+      bundles: this.props.bundles
+    })
   }
 
   render() {
     function BundleCard(props) {
-      return <Card>
+      return <Card className='p-3'>
         <Row>
           <Col sm={1}>
             <Image rounded={true} src={props.value.img} width={'50'} height={'50'} />
@@ -19,6 +26,7 @@ class Bundle extends React.Component {
             <Card.Subtitle>{props.value.reward}</Card.Subtitle>        
           </Col>
         </Row>
+        <Requirement requirements={props.value.requirements} />
       </Card>
     }
   
@@ -34,7 +42,7 @@ class Bundle extends React.Component {
     }
   
     return (
-      <BundleView bundles={this.state} />
+      <BundleView bundles={this.state.bundles} className='p-3' />
     )
   }
 }

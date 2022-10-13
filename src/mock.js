@@ -17,24 +17,6 @@ const itemTypes = [
   { FORAGE: 'Forage' }
 ]
 
-export const items = [
-  {
-    id: 1,
-    name: 'Wild Horseradish',
-    season: ['Spring'],
-    sprite: 'https://stardewvalleywiki.com/mediawiki/images/9/90/Wild_Horseradish.png',
-    source: ['Foraging', 'Spring Seeds'],
-    type: 'Forage'
-  }, {
-    id: 2,
-    name: 'Daffodil',
-    season: ['Spring'],
-    sprite: 'https://stardewvalleywiki.com/mediawiki/images/4/4b/Daffodil.png',
-    source: ['Foraging', 'Spring Seeds'],
-    type: [itemTypes].FORAGE
-  }
-]
-
 export const bundles = [
   {
     id: 1,
