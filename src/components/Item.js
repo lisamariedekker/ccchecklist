@@ -6,7 +6,7 @@ function Item () {
   function ListItem(props) {
     return <Row>
       <Col sm={1}>
-        <Image rounded="true" src={props.value.sprite}></Image>
+        <Image rounded="true" src={props.value.sprite} />
       </Col>
       <Col sm={2}>{props.value.name}</Col>
       <Col sm={1}>{props.value.season}</Col>
