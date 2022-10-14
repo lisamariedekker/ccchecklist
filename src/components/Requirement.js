@@ -22,12 +22,13 @@ class Requirement extends React.Component {
             <Form.Check />
           </Col>
           <Col sm={1}>{req.quantity}</Col>
-          <Col sm={2}>{req.quality}</Col>
-          <Col>
-            <Image rounded="true" src={req.item.sprite} />
+          <Col sm={1}>
+            <Image width={'20'} src={req.item.sprite} />
           </Col>
-          <Col>{req.item.name}</Col>
-          <Col>{req.item.season}</Col>
+          <Col sm={3}>{req.item.name}</Col>
+          <Col>
+            <Image width={'25'} src={req.item.season} />
+          </Col>
           <Col>{req.item.source}</Col>
         </Row>
       </ListGroup.Item>
