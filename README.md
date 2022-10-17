@@ -15,6 +15,6 @@ npm start
 - [ ] Create mock server for API calls
 - [ ] Progress bar in UI of Bundles and Rooms
 - [ ] Icons / sprites for quality, seasons and weather
-- [ ] Add Room component as collapse
+- [x] Add Room component as collapse
 - [x] Change favicon
 - [ ] Fill dummy data

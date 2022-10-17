@@ -8,7 +8,7 @@ const Item = ({req, handleItemToggle}) => {
   }
   
    return (
-       <div id={req.id} value={req.id} onClick={handleClick} className={req.completed ? 'req strike' : 'req'}>
+       <div id={req.id} value={req.id} onClick={handleClick} className={req.completed ? 'pointer strike' : 'pointer'}>
            {req.item.name}
        </div>
    );
