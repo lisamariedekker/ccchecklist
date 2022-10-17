@@ -1,9 +1,12 @@
 import './App.css';
-import { Container, Card } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import Bundle from './components/Bundle'
-import { bundles } from './mock'
+import { data } from './mock'
+import { useState } from 'react';
 
 function App() {
+
+  const [ bundles, setBundles ] = useState(data)
 
   return (
     <div>

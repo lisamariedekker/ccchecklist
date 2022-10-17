@@ -6,7 +6,7 @@ npm start
 ```
 
 ---
-# TO DO
+## TO DO
 
 - [ ] Use React hooks, instead of class components
 - [ ] Handle checkbox event
@@ -16,4 +16,3 @@ npm start
 - [ ] Add Room component as collapse
 - [ ] Change favicon
 - [ ] Fill dummy data
-- [ ] 

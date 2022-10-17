@@ -36,7 +36,7 @@ const rooms = [
   }
 ]
 
-export const bundles = [
+export const data = [
   {
     id: 1,
     name: 'Spring Foraging',
