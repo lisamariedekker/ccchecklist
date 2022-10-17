@@ -1,22 +1,24 @@
-import React, { useState } from 'react'
-import { Collapse } from 'react-bootstrap';
+import React from 'react'
+import { Accordion } from 'react-bootstrap';
 import Bundle from './Bundle'
 
 const Room = ({rooms}) => {
-
-  const [open, setOpen] = useState(false);
 
   return (
     <div>
       {rooms.map(room => {
         return (
           <>
-            <h4 className='pointer' onClick={() => setOpen(!open)}>{room.name}</h4>
-            <Collapse in={open}>
-              <div>
+          <Accordion>
+            <Accordion.Item eventKey={room.id}>
+              <Accordion.Header>
+                <h4 className='pointer'>{room.name}</h4>
+              </Accordion.Header>
+              <Accordion.Body>
                 <Bundle bundles={room.bundles} key={room.id} />
-              </div>
-            </Collapse>
+              </Accordion.Body>
+            </Accordion.Item>
+          </Accordion>
           </>
         )
       })}
