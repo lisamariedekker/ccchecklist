@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Item from './Item'
 
 const Requirement = ({req}) => {
+  
   const [ requirements, setRequirements ]= useState(req)
 
   const handleItemToggle = (id) => {
