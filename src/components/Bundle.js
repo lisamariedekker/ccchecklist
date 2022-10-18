@@ -9,7 +9,7 @@ const Bundle = ({bundles}) => {
       {bundles.map(bundle => {
         return (
           <>
-          <Accordion>
+          <Accordion flush>
             <Accordion.Item eventKey={bundle.id}>
               <Accordion.Header>
                 <Row>
