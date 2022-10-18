@@ -16,7 +16,7 @@ npm start
 - [x] Add Room component as collapse
 - [x] Change favicon
 - [x] Progress bar in UI of Bundles
-- [ ] Add a header row above Item details
+- [x] Add a header row above Item details
 - [ ] Set fixed width for progressbar in Bundle
 - [ ] Show progress of Rooms with a percentage or icon
 - [ ] Restructure and fill the dataset

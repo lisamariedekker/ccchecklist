@@ -5,3 +5,7 @@
 .strike {
   text-decoration: line-through;
 }
+
+.header-row {
+  font-weight: bold;
+}
