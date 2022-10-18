@@ -13,12 +13,13 @@ npm start
 - [x] Re-add styling and React-Bootstrap components
 - [x] Handle checking off an item
 - [ ] Progress bar in UI of Bundles and Rooms
-- [ ] Change Rooms to tabs instead of accordion
+- [x] Change Rooms to tabs instead of accordion
 - [ ] Show progress of Rooms with a percentage or icon
 - [x] Add Room component as collapse
 - [x] Change favicon
 - [ ] Fill dummy data
 - [ ] Icons / sprites for quality, seasons and weather
+- [ ] Set fixed width for Progressbar
 
 
 ### IDEAS
