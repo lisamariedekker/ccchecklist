@@ -2,11 +2,6 @@ import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
  
 const Item = ({req, handleItemToggle}) => {
-
-  const handleClick = (e) => {
-    e.preventDefault()
-    handleItemToggle(e.currentTarget.id)
-  }
   
   const seasons = req.item.season.map((season) =>
     <Image src={season} key={season} width={20} />
@@ -17,8 +12,7 @@ const Item = ({req, handleItemToggle}) => {
   )
 
    return (
-    <>
-      <Container id={req.id} value={req.id} onClick={handleClick} className={req.completed ? 'pointer strike' : 'pointer'}>
+      <Container id={req.id} value={req.id} onClick={() => handleItemToggle(req.id)} className={req.completed ? 'pointer strike' : 'pointer'}>
         <Row>
           <Col sm={1}>
             <Image width={20} src={req.item.sprite} />
@@ -33,7 +27,6 @@ const Item = ({req, handleItemToggle}) => {
           </Col>
         </Row>
       </Container>
-    </>
    );
 };
  

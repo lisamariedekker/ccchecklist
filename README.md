@@ -6,6 +6,14 @@ npm start
 ```
 
 ---
+
+- [ ] React context
+- [ ] Linting, prettier, code style (imports, semicolons), airbnb styleguide
+- [ ] Lege divs weg
+- [ ] classnames import
+- [ ] rename requirements to "options" or "items"
+- [ ] Folder structure
+
 ## TO DO
 
 - [x] Use React hooks, instead of class components
@@ -19,8 +27,9 @@ npm start
 - [x] Add a header row above Item details
 - [ ] Set fixed width for progressbar in Bundle
 - [ ] Show progress of Rooms with a percentage or icon
-- [ ] Restructure and fill the dataset
+- [ ] Restructure / normalize and fill the dataset
 - [ ] Icons / sprites for quality, seasons, weather, itemType
+- [ ] Images for incomplete / completed rooms
 - [ ] Filtering based on completed status, or other item properties
 - [ ] Don't show particular bundles until they are unlocked
 

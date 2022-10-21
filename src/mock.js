@@ -41,7 +41,7 @@ export const data = [
         img: 'https://stardewvalleywiki.com/mediawiki/images/8/8a/Spring_Foraging_Bundle.png',
         reward: 'Spring Seeds x30',
         include: true,
-        itemsRequired: 4, // possibly redundant attribute
+        itemsRequired: 4,
         requirements: [
           {
             id: 1,
@@ -103,7 +103,7 @@ export const data = [
         img: 'https://stardewvalleywiki.com/mediawiki/images/f/fd/Summer_Foraging_Bundle.png',
         reward: 'Summer Seeds x30',
         include: true,
-        itemsRequired: 4, // possibly redundant attribute
+        itemsRequired: 4,
         requirements: [
           {
             id: 1,
